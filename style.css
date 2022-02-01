@@ -12,10 +12,14 @@ body{
     padding-right: 15px;
     margin: 0 auto;
 }
+.header{
+    background-color: rgba(255, 255, 255, 0.75);
+    padding: 25px 0;
+}
 [class*="col-"]{
     float: left;
 }
-.row :after{
+.row:after, .menu:after {
     content: "";
     display: block;
     clear: both;
@@ -25,4 +29,19 @@ body{
 }
 .col-6{
     width: 50%;
+}
+.menu li{
+    width: 25%;
+    float: left;
+}
+.menu li: la
+.menu a{
+    
+    display: block;
+    height: 50px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 50px;
+    color: #2c71b8;
+    font-size: 21px;
 }
